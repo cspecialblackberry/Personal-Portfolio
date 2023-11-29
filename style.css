@@ -1,0 +1,44 @@
+header {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 25px;
+}
+
+h1 {
+    align-self: center;
+    margin-left: 40px;
+}
+
+header img {
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.contact {
+    background-color: lightgray;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact ul li {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-me {
+    height: 250px;
+    display: flex;
+
+}
+
+.portfolio {
+    height: 500px;
+}
