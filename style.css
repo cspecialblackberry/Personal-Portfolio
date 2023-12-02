@@ -1,15 +1,15 @@
 :root {
-    --blue :#02A9EA;
-    --yellow: #FAFF00;
-    --black: #000300;
+    --blue :#C3DFE0;
+    --white: #F1E9DA;
+    --darkblue: #102E4A;
 }
 
 body{
-    background-color: var(--black);
+    background-color: var(--darkblue);
 }
 
 header {
-    background-color: var(--black);
+    background-color: var(--darkblue);
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -21,73 +21,119 @@ h1 {
     align-self: center;
     margin-left: 40px;
     color: var(--blue);
+    font-family: "Roboto Slab";
 }
 
-header img {
-    border-radius: 10px;
+header img{
+    margin-left: 100px;
+    padding-top: 20px;
 }
 
 nav ul li {
     display: inline-block;
     margin: 25px;
+}
+
+nav ul a {
     color: var(--blue);
+    font-family: "Roboto Slab"
 }
 
 .about-me {
-    height: 250px;
+    height: 175px;
     display: flex;
-    background-color: var(--blue);
+    background-color: var(--white);
 }
 
 .about-me h2 {
     align-self: center;
     width: 28%;
     margin-left: 2%;
-    color: var(--black);
+    color: var(--darkblue);
+    font-family: "Roboto Slab"
+}
+
+.about-me p {
+    align-self: center;
+    margin-right: 2%;
+    color: var(--darkblue);
+    text-align: center;
+    background-color: var(--blue);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto Slab"
 }
 
 .portfolio {
-    background-color: var(--yellow);
+    background-color: var(--blue);
     display:flex;
     height: 500px;
 }
 
 .portfolio h2 {
     align-self:center;
-    width: 28%;
+    display:inline-block;
     margin-left: 2%;
-    color: var(--black);
+    width: 28%;
+    color: var(--darkblue);
+    font-family: "Roboto Slab"
 }
 
 .horiseon {
     justify-content: flex-end;
+    margin-left: 300px;
 }
 
-.project-image{
-    width: 50%;
+.horiseon h3 {
+    font-family: "Roboto Slab";
+    color: var(--darkblue);
+}
+
+
+.project-image {
+    width: 600px;
     position:relative;
-    border: 15px solid var(--blue);
-    background-color: var(--blue);
+    border: 15px solid var(--darkblue);
+    background-color: var(--white);
     justify-content: flex-end;
+    margin-right: 5%;
 }
 
 .project-image p {
     position: absolute;
-    bottom: 10px;
-    left: 15px;
+    bottom: -13px;
+    left: 0px;
     background-color: var(--blue);
     font-weight: 700;
+    padding: 20px;
 }
 
 .contact {
-    background-color: var(--blue);
+    background-color: var(--darkblue);
+    height: 100px;
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .contact ul {
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 45px;
+    width: 100%;
+    display:flex;
+    list-style: none;
 }
+
+.contact ul li {
+    justify-content: space-between;
+    margin: 150px;
+    align-self: center;
+    color: var(--blue);
+    font-family: "Roboto Slab";
+    text-decoration: underline;
+}
+
+.contact ul a {
+    color: var(--blue);
+    font-family: "Roboto Slab"
+}
+
+
 
