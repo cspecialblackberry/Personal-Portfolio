@@ -79,24 +79,20 @@ nav ul a {
     font-family: "Roboto Slab"
 }
 
-.horiseon {
-    justify-content: flex-end;
-    margin-left: 300px;
-}
-
-.horiseon h3 {
+h3 {
     font-family: "Roboto Slab";
     color: var(--darkblue);
+    text-align: center;
+    margin-top: 35px;
 }
-
 
 .project-image {
     width: 600px;
     position:relative;
     border: 15px solid var(--darkblue);
-    background-color: var(--white);
-    justify-content: flex-end;
+    background-color: var(--darkblue);
     margin-right: 5%;
+    margin-top: 45px;
 }
 
 .project-image p {
@@ -106,6 +102,7 @@ nav ul a {
     background-color: var(--blue);
     font-weight: 700;
     padding: 20px;
+    font-family: "Roboto Slab";
 }
 
 .contact {
@@ -133,6 +130,46 @@ nav ul a {
 .contact ul a {
     color: var(--blue);
     font-family: "Roboto Slab"
+}
+
+@media only screen and (max-width: 600px){
+ 
+ 
+ header{
+    flex-wrap: wrap;
+    height: 250px;
+ }
+
+ nav ul li {
+    margin: 35px;
+ }
+
+.about-me p{
+    width: 350px;
+    margin-right: 5%;
+ }
+
+ .portfolio {
+    height: 350px;
+ }
+
+ .project-image {
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 25px;
+ }
+
+ .project-image p {
+    padding: 10px;
+ }
+
+ .contact {
+    height: 150px;
+ }
+ 
+ .contact ul li {
+    margin: 30px;
+ }
 }
 
 
